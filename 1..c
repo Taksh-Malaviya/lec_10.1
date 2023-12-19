@@ -5,6 +5,17 @@ Enter any number: 5
 Output:
 Cube is: 125*/
 
-void main(){
+#include<stdio.h>
+void taksh(){
+
+     int a,b;
+     
+	printf("enter value  ");
+	scanf("%d",&a);
+	
+	b= a*a*a;
+	printf("cube = %d",b);
+}
+main(){
 	taksh();						
 }
